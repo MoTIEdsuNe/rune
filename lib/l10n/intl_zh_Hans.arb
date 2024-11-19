@@ -78,7 +78,7 @@
     "@player": {
         "description": "“关于”页面上软件元数据的一个部分标题，提供软件的版本信息概览。"
     },
-    "buildHash": "构建哈希值",
+    "buildHash": "构建哈希",
     "@buildHash": {},
     "buildDate": "构建日期",
     "@buildDate": {},
@@ -102,21 +102,21 @@
     "@axiomDesign": {
         "description": "支持本项目的设计研究机构。您应保留原名，不作翻译。"
     },
-    "computingDevice": "计算设备",
+    "computingDevice": "硬件加速",
     "@computingDevice": {
         "description": "一个设置条目标题，允许用户选择负责执行音频分析任务的硬件设备。"
     },
-    "computingDeviceSubtitle": "选择 GPU 或 CPU 以获得更快或更高效的处理。",
+    "computingDeviceSubtitle": "选择 GPU 或 CPU 以获得更快、更高效的性能。",
     "@computingDeviceSubtitle": {},
     "gpu": "GPU (图形处理器)",
     "@gpu": {},
     "cpu": "CPU (中央处理器)",
     "@cpu": {},
-    "performanceLevel": "性能水平",
+    "performanceLevel": "性能",
     "@performanceLevel": {},
-    "performanceLevelSubtitle": "选择要同时运行多少个任务。",
+    "performanceLevelSubtitle": "选择要同时运行任务。",
     "@performanceLevelSubtitle": {},
-    "performance": "性能优先",
+    "performance": "高性能",
     "@performance": {
         "description": "高性能模式，利用可用的硬件资源尽快完成计算任务。"
     },
@@ -146,11 +146,11 @@
     "@actionMenu": {
         "description": "设置界面元素列表中的一个分隔符。此分隔符下方的所有项目将隐藏在一个弹出按钮中，而不是直接显示在屏幕上。"
     },
-    "addToQueue": "添加到队列",
+    "addToQueue": "添加到列表",
     "@addToQueue": {
-        "description": "上下文菜单中的一个条目。按下此条目将把相应的歌曲或专辑添加到播放队列中。"
+        "description": "上下文菜单中的一个条目。按下此条目将把相应的歌曲或专辑添加到播放列表中。"
     },
-    "addToQueueSubtitle": "新项目如何添加至播放队列",
+    "addToQueueSubtitle": "添加至播放列表时的歌曲位置。",
     "@addToQueueSubtitle": {},
     "playNext": "下一首播放",
     "@playNext": {
@@ -160,11 +160,11 @@
     "@addToEnd": {
         "description": "一个操作，将一首歌曲或一张专辑添加到播放列表的末尾。"
     },
-    "middleClickAction": "鼠标中键操作",
+    "middleClickAction": "鼠标中键",
     "@middleClickAction": {
         "description": "设置界面中的一个标题，控制用户用鼠标中键点击一首歌曲或专辑时的行为。"
     },
-    "middleClickActionSubtitle": "用鼠标中键点击歌曲或合集时执行的操作。",
+    "middleClickActionSubtitle": "使用鼠标中键点击歌曲或合集时执行的操作。",
     "@middleClickActionSubtitle": {},
     "startPlaying": "开始播放",
     "@startPlaying": {
@@ -178,15 +178,15 @@
     "@playbackMode": {
         "description": "设置界面中的一个标题，帮助用户选择所需的播放模式，如随机播放或顺序播放。"
     },
-    "playbackModeSubtitle": "您喜欢音乐播放的方式",
+    "playbackModeSubtitle": "选择您所需的音乐播放方案。",
     "@playbackModeSubtitle": {},
-    "colorMode": "色彩模式",
+    "colorMode": "主题",
     "@colorMode": {
         "description": "一个设置条目，帮助用户选择界面的色彩模式，包括浅色和深色模式。"
     },
-    "colorModeSubtitle": "更改Rune中显示的色彩模式。",
+    "colorModeSubtitle": "更改 Rune 显示主题。",
     "@colorModeSubtitle": {},
-    "systemColorMode": "系统默认",
+    "systemColorMode": "跟随系统",
     "@systemColorMode": {
         "description": "一个色彩设置条目，启用后，软件的浅色或深色模式将与系统设置保持一致。"
     },
@@ -204,7 +204,7 @@
     },
     "themeColorSubtitle": "选择一个颜色，让你的 Rune 焕然一新。",
     "@themeColorSubtitle": {},
-    "followSystemTheme": "跟随系统主题色",
+    "followSystemTheme": "跟随系统主题",
     "@followSystemTheme": {
         "description": "主题色设置中的一个条目。启用后，软件的主题色将跟随系统设置。"
     },
@@ -212,13 +212,13 @@
     "@dynamicColors": {
         "description": "一个色彩设置条目。启用后，软件的主题色会根据当前播放的歌曲的封面而变化。"
     },
-    "dynamicColorsSubtitle": "根据正在播放的歌曲的封面调整Rune的主题色。",
+    "dynamicColorsSubtitle": "根据正在播放的歌曲的封面调整 Rune 的主题色。",
     "@dynamicColorsSubtitle": {},
     "brandingAnimation": "品牌动画",
     "@brandingAnimation": {
         "description": "一个设置条目，允许用户控制软件启动时是否播放欢迎动画。"
     },
-    "brandingAnimationSubtitle": "Rune 启动时播放品牌动画。",
+    "brandingAnimationSubtitle": "启动 Rune 时是否播放 logo 动画。",
     "@brandingAnimationSubtitle": {},
     "thisMightTakeAFewMinutes": "这可能需要几分钟。",
     "@thisMightTakeAFewMinutes": {
@@ -475,15 +475,15 @@
     "@analysing": {
         "description": "设置界面中的按钮提示文字，表示当前正在分析媒体库。"
     },
-    "tryCreatingYourOwnCollection": "试试创建您自己的合集",
+    "tryCreatingYourOwnCollection": "尝试创建独属于您的播放列表",
     "@tryCreatingYourOwnCollection": {
         "description": "在“合集”视图的空白页面上显示的文字，建议用户创建一个新的合集。"
     },
-    "theseActionsMayHelp": "这些操作可能有帮助",
+    "theseActionsMayHelp": "尝试以下操作",
     "@theseActionsMayHelp": {},
-    "tryScanningNewFiles": "试试扫描新文件",
+    "tryScanningNewFiles": "尝试扫描新专辑",
     "@tryScanningNewFiles": {},
-    "noCollectionFound": "没有找到合集",
+    "noCollectionFound": "未发现合集",
     "@noCollectionFound": {},
     "noItemsInPlaylist": "播放列表中没有项目",
     "@noItemsInPlaylist": {},
@@ -515,7 +515,7 @@
     "@playlist": {
         "description": "控制播放的按钮提示文字，用于显示播放列表。"
     },
-    "playlistSubtitle": "查看播放队列",
+    "playlistSubtitle": "查看播放列表。",
     "@playlistSubtitle": {},
     "hidden": "隐藏",
     "@hidden": {
@@ -571,9 +571,9 @@
     "@settings": {
         "description": "设置界面的标题。"
     },
-    "analysis": "分析",
+    "analysis": "性能",
     "@analysis": {
-        "description": "分析设置界面的标题。"
+        "description": "性能设置界面的标题。"
     },
     "playback": "播放",
     "@playback": {
@@ -583,7 +583,7 @@
     "@theme": {
         "description": "主题设置界面的标题。"
     },
-    "controller": "设置",
+    "controller": "控制栏",
     "@controller": {
         "description": "播放控制按钮设置界面的标题。"
     },
@@ -687,11 +687,11 @@
     "@language": {
         "description": "语言设置页面的标题。"
     },
-    "followSystemLanguage": "跟随系统语言",
+    "followSystemLanguage": "跟随系统",
     "@followSystemLanguage": {
         "description": "设置中的操作按钮文本，表示 Rune 的语言应跟随操作系统。"
     },
-    "followSystemLanguageSubtitle": "跟随系统语言，无需特殊设置。",
+    "followSystemLanguageSubtitle": "跟随系统语言，无需设置。",
     "@followSystemLanguageSubtitle": {},
     "windowSize": "窗口大小",
     "@windowSize": {
